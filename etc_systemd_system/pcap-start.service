@@ -1,0 +1,8 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/srv/scripts/startSniff.sh
+
+[Install]
+WantedBy=default.target

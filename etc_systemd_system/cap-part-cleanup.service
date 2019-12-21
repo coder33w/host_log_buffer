@@ -1,0 +1,8 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/srv/scripts/part_cleanup.sh
+
+[Install]
+WantedBy=default.target
